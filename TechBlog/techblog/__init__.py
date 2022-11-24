@@ -20,8 +20,8 @@ login_manager.login_message_category = 'info'
 app.config['MAIL_SERVER'] = 'smtp-mail.outlook.com'
 app.config['MAIL_PORT'] = '587'
 app.config['MAIL_USE_TLS'] = 'TLS'
-app.config['MAIL_USERNAME'] = 'alidevopsolid@outlook.com'
-app.config['MAIL_PASSWORD'] = 'Iamwhoiamyoucantbeme'
+app.config['MAIL_USERNAME'] = ''
+app.config['MAIL_PASSWORD'] = ''
 
 mail = Mail(app)
 
